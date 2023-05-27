@@ -1,2 +1,2 @@
 # odin-recipes
-Recipe website. Will sue HTML to construct this website.
+Recipe website. Will use HTML to construct this website.
