@@ -1,14 +1,49 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(90, 65, 65);
-    background-color: rgb(224, 213, 193);
+html {
+    background-color: rgb(255, 182, 48);
 }
 
-h1 {
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(51, 32, 32);
 }
 
-.redbg {
-    background-color: red;
-    color: aqua;
+h1,
+p {
+    background-color: rgb(255, 237, 203);
+    text-align: center;
+    margin: 10px auto;
+    width: 500px;
+}
+
+.header {
+    background-color: rgb(255, 237, 203);
+    text-align: center;
+    padding: 5px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+ul,
+li {
+    display: inline-block;
+    background-color: rgb(255, 237, 203);
+    padding: 10px;
+}
+
+ul {
+    margin: 20px 775px;
+}
+
+.images {
+    display: block;
+    margin: 20px auto;
+    border: 10px solid rgb(255, 0, 0);
+}
+
+ol li {
+    display: block;
+    display: list-item;
+    width: 500px;
+    margin: 20px auto;
 }
